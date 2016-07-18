@@ -1,0 +1,160 @@
+.header{
+	position: relative;
+	width: 100%;
+	height: 210px;
+	background-image: url(../images/top-abstract-bg.png);
+}
+.header .wrap1{
+	position: absolute;
+	left: 25%;
+	margin-top: 10px;
+}
+
+.logo{
+	width: 100%;
+	height:103px;
+}
+.search_bar{
+	width: 980px;
+	height: 40px;
+	background-color: #787878;
+	
+}
+.bar{
+	float: left;
+	
+}
+.search_bar a{
+	position: relative;
+	
+    color: white;
+    top: 8px;
+    left: 35px;
+    margin-right: 20px;
+}
+.search_bar .bar0{
+	width: 100px;
+	height: 40px;
+	float: left;
+	background-color: red; 
+}
+.search input{
+	width: 150px;
+	height: 20px;
+	float: right;
+	background-image: url(../images/text-field-bg.png);
+	margin-top: 5px;
+}
+.search button{
+	width: 50px;
+	height: 20px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+
+}
+.main{
+	position: relative;
+	width: 100%;
+	height: 430px;
+	/*background-color: red;*/
+}
+.main .bg{
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	top: 50px;
+	background-color: black;
+}
+.main .pic{
+	position: absolute;
+	width: 50%;
+	height: 430px;
+    left: 470px;
+    background-image: url(../images/slide4.jpg);
+    background-repeat: no-repeat;
+    border-color: red;
+
+}
+.nav{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	
+}
+.nav .wrap{
+    position: absolute;
+    height: 390px;
+    width: 980px;
+        left: 450px;
+}
+.nav .item1{
+	height: 390px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*background-color: red;*/
+
+}
+.section{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/seperator-980.png);
+	background-repeat: no-repeat;
+
+}
+.section .wrap{
+     position: absolute;
+     width: 800px;
+     height: 100px;
+     /*background-color: red;*/
+     left: 500px;
+     top: 40px;
+}
+.section .wrap .link{
+	margin-top: 20px;
+	float: left;
+
+}
+.section .wrap button{
+	float: right;
+	margin-top: 40px;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	top: 20px;
+	background-color: black;
+}
+.footer .wrap{
+	position: absolute;
+	width: 50%;
+	height: 60px;
+	
+	left: 450px;
+}
+.footer .wrap .term1{
+	 margin-left: 10px;
+  float: left;
+  margin-top: 20px;
+ }
+.footer .wrap .term1 a{
+	color: white;
+	 margin-left: 10px;
+     text-decoration: none;
+
+}
+.footer .wrap .term2{
+	 margin-right: 10px;
+  float: right;
+  margin-top: 20px;
+ }
+ .footer .wrap .term2 a{
+	color: white;
+	 margin-right: 10px;
+     text-decoration: none;
+
+}

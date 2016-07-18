@@ -1,0 +1,177 @@
+.top{
+	width: 100%;
+	height: 160px;
+	background:url(../images/nav_bg.png) 0 -20px repeat-x;
+	position: fixed;
+	z-index: 9999;
+}
+.top .logo{
+	width: 250px;
+	height: 150px;
+	float: left;
+}
+.t_wrap{
+	width: 1210px;
+	margin: 0 auto;
+	overflow: hidden
+}
+.nav{
+	width: 560px;
+	float: left;
+}
+.nav ul{
+	padding: 50px 0 0 0;
+}
+.nav li{
+	height: 26px;
+	float: left;
+	
+}
+.nav li a{
+	padding: 0 30px;
+	font-size: 16px;
+}
+.nav li .xx{
+	float: left;
+	width: 1px;
+	height: 26px;
+	background:url(../images/nav_xx.gif) 0 center no-repeat;
+}
+.phone{
+	float: right;
+	margin-top:38px;
+	width: 300px;
+}
+.focusBox{
+    position: relative;
+    width: 100%;
+    height: 650px;
+
+}
+.focusBox .pic {
+    position: relative;
+    width: 1903px;
+    height: 650px;
+    z-index: 0;
+    padding-left: 20px;
+    background-image: url(../images/b1.jpg);
+   
+	}
+.gg{
+	position: relative;
+	opacity: 0.5;
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	z-index: 1;
+	top: -30px;
+}
+.banner{
+	position: relative;
+}
+.gg .news{
+	z-index: 2;
+	width: 200px;
+	height: 30px;
+	/*float: left;*/
+	/*padding-left: 50px;*/
+	/*background-color: red;*/
+}
+.gg a{
+	color: red;
+	padding-left: 100px;
+
+}
+.con1{
+	position: relative;
+	top: -30px;
+	width: 100%;
+	height: 400px;
+    padding-bottom: 20px;
+	background-image: url(../images/con1_bg.jpg);
+}
+.con1 .yewu{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -70px;
+	width: 100%;
+	height: 250px;
+    /*margin: 0 auto;*/
+    /*background-color: red;*/
+   /*padding-top: 100px;*/
+
+}
+.con1 .one{
+	float: left;
+	width: 232px;
+	height:200px;
+	left: 20px;
+	border-style:solid;
+	border-width: 1px;
+	margin-right: 20px;
+}
+.con1 .pic1{
+	width: 180px;
+	height: 160px;
+	/*background-color: red;*/
+	/*background-image: url(../images/yw1.jpg);*/
+}
+.con2{
+	position: relative;
+	background-image: url(../images/case_bg.jpg);
+	width: 100%;
+	height: 427px;
+}
+.con2 .wrap2{
+    position: absolute;
+    width: 55%;
+    height: 220px;  
+    /*background-color: red;*/
+    top: 50%;
+    left: 50%;
+    margin-left: -520px;
+    margin-top: -50px;
+}
+.con2 .item1{
+	float: left;
+	margin-right: 120px;
+	width: 200px;
+	height: 220px;
+}
+.con2 .text a{
+       margin-left: 80px;
+}
+.footer{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	background-image:url(../images/foot_bg.gif);
+}
+.footer .wrap{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    /*background-color: red;*/
+    margin-top: -90px;
+    margin-left: -260px;
+    width: 600px;
+    height: 180px;
+}
+.footer .link{
+	float: left;
+	margin-top: 20px;
+	
+}
+.footer .link a{
+margin-right: 18px;
+}
+.footer .foot_map{
+	float: left;
+	margin-top: 40px;
+}
+.footer .foot_map a{
+	margin-left: 8px;
+	margin-right: 8px;
+}
