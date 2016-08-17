@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+	<ViewFlipper 
+		android:id="@+id/vflp_help"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:inAnimation="@layout/right_in"
+		android:outAnimation="@layout/right_out"
+		android:flipInterval="3000"
+		
+		<include layout="@layout/page_help_one" />
+		<include layout="@layout/page_help_two" />
+		>
+	</ViewFlipper>
+	
+</RelativeLayout>

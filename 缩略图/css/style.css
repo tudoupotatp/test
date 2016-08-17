@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#jdjxc .clear {
+	clear: both;
+}
+
+#jdjxc ul {
+	list-style: none;
+}
+
+#jdjxc {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#imgRolling {
+	clear: both;
+}
+
+#imgRolling .imagebg {
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+#imgRolling .imagebg li {
+	height: 550px;
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+#imgRolling .scrollbg {
+	height: 282px;
+	background: url(images/scroll_bg.png) no-repeat center center;
+}
+
+#imgRolling .scroll {
+	width: 1090px;
+	height: 282px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#imgRolling .pre, .next {
+	display: block;
+	position: absolute;
+	width: 48px;
+	height: 76px;
+}
+
+#imgRolling a.pre {
+	background: url(images/arr_l.png);
+	top: 90px;
+	left: 0;
+}
+
+#imgRolling a.pre:hover {
+	background: url(images/arr_l_on.png);
+}
+
+#imgRolling a.next {
+	background: url(images/arr_r.png);
+	top: 90px;
+	right: 0;
+}
+
+#imgRolling a.next:hover {
+	background: url(images/arr_r_on.png);
+}
+
+#imgRolling .outScroll_pic {
+	width: 952px;
+	height: 282px;
+	overflow: hidden;
+	margin-left: 70px;
+	position: relative;
+	top: 2px;
+}
+
+#imgRolling .outScroll_pic .scroll_img {
+	position: absolute
+}
+
+#imgRolling .scroll_img {
+	margin: 0 auto;
+	width: 40000px;
+	height: 282px;
+}
+
+#imgRolling .scroll_img li {
+	float: left;
+	height: 135px;
+	width: 171px;
+	margin: 60px 9px;
+	_margin: 5px 14px 5px 4px;
+	cursor: pointer;
+}
+
+#imgRolling .scroll .present {
+	width: 170px;
+	height: 135px;
+	border: 2px #fff solid;
+	background: url(images/arr_on.png) 50% -4px no-repeat;
+	z-index: 10;
+	position: absolute;
+	top: 60px;
+	left: 0;
+}

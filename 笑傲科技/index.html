@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		笑傲科技
+	</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</link>
+</meta>
+</head>
+<body>
+	<div class="header">
+		<div class="wrap">
+			<div class="logo">
+				<img src="images/logo1.png">
+			</img>
+		</div>
+		<div class="nav_list">
+			<ul>
+				<li>
+					<a href="">
+						网站首页
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						关于我们
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						业务范围
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						新闻中心
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						案例中心
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						招贤纳士
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						在线留言
+					</a>
+					|
+				</li>
+				<li>
+					<a href="">
+						联系我们
+					</a>
+					|
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="mianc">
+		<h1>图片轮播</h1>
+
+		<!-- Demo start -->
+		<!-- css -->
+		<link rel="stylesheet" href="css/slide.css">
+		<style>
+			.ck-slide { width: 700px; height: 320px; margin: 0 auto;}
+			.ck-slide ul.ck-slide-wrapper { height: 320px;}
+		</style>
+		
+		<!-- html -->
+		<div class="ck-slide">
+			<ul class="ck-slide-wrapper">
+				<li>
+					<a href="javascript:"><img src="images/1.jpg" alt=""></a>
+				</li>
+				<li style="display:none">
+					<a href="javascript:"><img src="images/2.jpg" alt=""></a>
+				</li>
+				<li style="display:none">
+					<a href="javascript:"><img src="images/3.jpg" alt=""></a>
+				</li>
+				<li style="display:none">
+					<a href="javascript:"><img src="images/4.jpg" alt=""></a>
+				</li>
+				<li style="display:none">
+					<a href="javascript:"><img src="images/5.jpg" alt=""></a>
+				</li>
+			</ul>
+			<a href="javascript:;" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+			<div class="ck-slidebox">
+				<div class="slideWrap">
+					<ul class="dot-wrap">
+						<li class="current"><em>1</em></li>
+						<li><em>2</em></li>
+						<li><em>3</em></li>
+						<li><em>4</em></li>
+						<li><em>5</em></li>
+					</ul>
+				</div>
+			</div>
+			<div class="logo" id="logo1">
+				<img src="images/logo1.png">
+			</div>
+
+
+		</div>
+		
+
+		<!-- js -->
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<!--<script src="js/slide.min.js"></script>-->
+		<script src="js/slide.js"></script>
+		<script>
+			$('.ck-slide').ckSlide({
+				autoPlay: true,//默认为不自动播放，需要时请以此设置
+				dir: 'x',//默认效果淡隐淡出，x为水平移动，y 为垂直滚动
+				interval:3000//默认间隔2000毫秒
+				
+			});
+		</script>
+		<!-- Demo end -->
+
+
+	</div>
+</div>
+
+<style>
+	* { margin: 0; padding: 0;}
+	html, body { height: 100%; overflow: hidden;}
+	.main h1 { width: 100%; margin: 40px auto; font: 32px "Microsoft Yahei"; text-align:center;}
+	/*注释*/
+	.zhushi{width:900px;margin: 30px auto; }/*注释*/
+	.zhushi p{ line-height:24px; font-family:"微软雅黑";font-size:16px;text-align:left;}
+</style>
+</body>
+</html>

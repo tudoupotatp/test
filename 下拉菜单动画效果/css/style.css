@@ -1,0 +1,67 @@
+.main{
+	width: 100%;
+	height: 1000px;
+	background-image: url("../images/bg-43.jpg");
+}
+.list{
+	opacity: 0.6;
+	position: relative;;
+	margin: 0 auto;
+	top: 100px;
+	width: 250px;
+	height: 156px;
+	/*background-color: #9D9D9D;*/
+}
+.list1{
+	margin-top: 1px;
+	width: 250px;
+	height: 50px;
+	background-color: #9D9D9D;
+	border-radius:5px;
+	border-color: white;
+}
+#list2,#list3{
+	display: none;
+}
+#list2:hover{
+	opacity: 0.8;
+
+}
+#list3:hover{
+	opacity: 0.8;
+
+}
+.pic{
+	float: left;
+	position: absolute;
+	margin-top: 6px;
+	margin-left: 4px;
+	width: 34px;
+	height: 34px;
+}
+.name{
+	float: left;
+	position: absolute;
+	margin-left: 50px;
+	width: 150px;
+	height: 40px;
+}
+.name p{
+	font-weight:bold;
+	color: #5B5B5B;
+}
+.arrow1{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-image:url("../images/B.png");
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+	transition: width 2s, height 2s, transform 2s;
+}
+.xiala{
+	-webkit-transform:rotate(-180deg);
+	transform:rotate(-180deg);
+}

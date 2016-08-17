@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>菜鸟教程(runoob.com)</title>
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("p").each(function(i){
+				$(this).on("click",{x:i},function(event){
+					alert("序号：" + $(this).index() + "。段落的数据为: " + event.data.x);
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<div style="color:red">点击每一个 p 元素返回数据，通过 on() 方法来实现。</div>
+	<p>这是一个段落。</p>
+	<p>这是另外一个段落。</p>
+	<p>这是另外一个段落。</p>
+
+</body>
+</html>

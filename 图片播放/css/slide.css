@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	position: relative;
+	width: 700px;
+	height: 400px;
+	overflow: hidden;
+	margin: 50px auto;
+	
+}
+.pic{
+	z-index: 1;
+	position: absolute;
+	width: 4200px;
+	height: 400px;
+}
+.pic li{
+	float: left;
+	width: 700px;
+	height: 400px;
+}
+img{
+	width: 700px;
+	height: 400px;
+}
+.icon{
+	z-index: 99;
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	bottom: 50px;
+}
+.icon li{
+	margin-left: 10px;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #B7B7B7;
+	text-align: center;
+}
+.icon a:hover{
+	
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+}
+.arrow{
+	z-index: 99;
+	position:relative;
+	width: 700px;
+	height: 40px;
+	margin-top: 200px;
+}
+.arrow #arrow1{
+	position: relative;
+	background-image: url("../images/arrow-left.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 40px;
+	float: left;
+}
+.arrow #arrow2{
+	position: relative;
+	background-image: url("../images/arrow-right.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 40px;
+	float: right;
+}

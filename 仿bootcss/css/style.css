@@ -1,0 +1,103 @@
+/**{
+	margin:0;
+	padding: 0;
+	}*/
+	a{
+		/*text-decoration: none;*/
+	}
+	ul{
+		list-style: none;
+	}
+	.main{
+		width: 100%;
+		height: 500px;
+		margin-top: -30px;
+		position: relative;
+		background: -webkit-linear-gradient(left, #28004d , #5e005e); /* Safari 5.1 - 6.0 */
+		background: -o-linear-gradient(right, #28004d, #5e005e); /* Opera 11.1 - 12.0 */
+		background: -moz-linear-gradient(right, #28004d, #5e005e); /* Firefox 3.6 - 15 */
+		background: linear-gradient(to right, #28004d , #5e005e); /* 标准的语法 */
+	}
+	.main:after{
+	/*	content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url(../images/bs-docs-masthead-pattern.png) repeat center center;
+		opacity: 0.4;*/
+	}
+	.main .wrap{
+		position: absolute;
+		width: 100%;
+		padding-left: 40%;
+		padding-top: 60px;
+		/*margin: 0 auto;*/
+		color: white;
+		
+	}
+	.main .wrap .top{
+		position: absolute;
+		font-size: 100px;
+	}
+	.main .wrap .center{
+		font-size: 40px;
+		margin-left: -250px;
+		margin-top: 120px;
+	}
+	.main .wrap .bottom{
+		margin-left: 100px;
+		padding-top: 30px;
+
+	}
+	.main .wrap .bottom{
+		margin-left: 100px;
+		padding-top: 30px;
+		
+	}
+	
+	.main >.wrap >.bottom> a:hover,.main >.wrap> .bottom >a:active{
+		color: white;
+		cursor: pointer;
+	}
+	.main .wrap .bottom a{
+		color: gray;
+	}
+	.bar{
+		width: 100%;
+		height: 40px;
+		background-color: #e0e0e0;
+	}
+	.bar .wrap{
+		width: 35%;
+		height: 40px;
+		margin:0 auto;
+
+	}
+	.bar .wrap ul{
+		padding-top: 12px;
+	}
+	.bar .wrap li{
+		float: left;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.bar .wrap li a{
+		/*color: black;*/
+	}
+	.content{
+		width: 100%;
+		/*height: 1000px;*/
+	}
+	.content .head{
+		width: 30%;
+		height: 150px;
+		margin: 0 auto;
+	}
+	.content .tuijian{
+		width: 60%;
+		/*height: 600px;*/
+		margin: 0 auto;
+	}

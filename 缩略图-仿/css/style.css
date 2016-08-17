@@ -1,0 +1,16 @@
+#pic{
+	position: absolute;
+   width: 100%;
+}
+#big_pic{
+	position: relative;
+	width: 1000px;
+	height: 550px;
+	left: 400px;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+}
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/coolShow.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="main">
+		<div id="coolShow">
+			
+		</div>
+		<div id="handBar">
+			
+		</div>
+	</div>
+	<script src = "js/jquery-1.7.2.min.js"></script>
+	<script src = "js/coolShow.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('coolShow').coolShow({
+				imgSrc:['images/1.png','images/3.png','images/2.png'],
+				speed:40
+			});
+
+		});
+	</script>
+</body>
+</html>

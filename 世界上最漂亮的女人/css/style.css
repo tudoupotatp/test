@@ -1,0 +1,15 @@
+body {
+	color:#000000;
+	background-color:#D1E9E9;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+a img {
+	border:none;
+}
